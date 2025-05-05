@@ -6,7 +6,7 @@ This responsive single-page e-commerce product listing website was developed as 
 
 ## Live Demo
 
-[View Live Demo](https://your-github-username.github.io/product-listing-website/)
+[View Live Demo](https://your-shirts.vercel.app/)
 
 ## Features
 
