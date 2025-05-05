@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>T-Fashion</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <link rel="stylesheet" href="./css/variables.css">
+  </head>
+  <body>
+    <header>
+      <div class="header-container">
+        <div class="logo">FASHION</div>
+        <nav>
+          <ul class="nav-links">
+            <li><a href="#" class="active">CATALOG</a></li>
+            <li><a href="#">FASHION</a></li>
+            <li><a href="#">FAVORITE</a></li>
+            <li><a href="#">LIFESTYLE</a></li>
+          </ul>
+        </nav>
+        <div class="nav-right">
+          <button class="sign-up-btn">SIGN UP</button>
+          <button class="cart-btn">CART</button>
+        </div>
+        <button class="hamburger">☰</button>
+      </div>
+    </header>
+
+    <div class="mobile-nav">
+      <button class="close-nav">✕</button>
+      <ul class="mobile-nav-links">
+        <li><a href="#" class="active">CATALOG</a></li>
+        <li><a href="#">FASHION</a></li>
+        <li><a href="#">FAVORITE</a></li>
+        <li><a href="#">LIFESTYLE</a></li>
+        <li><a href="#">SIGN UP</a></li>
+        <li><a href="#">CART</a></li>
+      </ul>
+    </div>
+    <div class="overlay"></div>
+
+    <section class="hero">
+      <div class="hero-container">
+        <div class="hero-content">
+          <h1 class="hero-title">Discover Your Style With Our Collection</h1>
+          <p class="hero-subtitle">
+            Explore our trendy designs and quality fabrics that define modern
+            fashion.
+          </p>
+          <a href="#" class="hero-btn">SHOP NOW</a>
+        </div>
+        <div class="hero-image">
+          <img
+            src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcT56gkvv7Si1IAgDhfFQkn7RqnzQGxqhLq2c3tuCKZnZQQmvHZDkzHhYjnrzS8gz3YQqT32dq4I17ABi9O5Jw5iA6W0RFNo"
+            alt="Fashion Hero Image"
+          />
+        </div>
+      </div>
+    </section>
+
+    <main>
+      <div class="container">
+        <section class="product-section">
+          <div class="category-header">
+            <div>
+              <h2 class="category-title">T-shirts</h2>
+              <p class="category-subtitle">NEW TRENDY DESIGNS</p>
+            </div>
+            <a href="#" class="view-all">View All <span>→</span></a>
+          </div>
+          <div class="product-grid" id="trending-products">
+            <!-- Products will be loaded here via JavaScript -->
+          </div>
+        </section>
+
+        <section class="features">
+          <div class="section-header">
+            <h2 class="section-title">Why Choose Us</h2>
+            <p class="section-subtitle">
+              We offer the best shopping experience with premium quality
+              products
+            </p>
+          </div>
+          <div class="features-grid">
+            <div class="feature-card">
+              <div class="feature-icon">🚚</div>
+              <h3 class="feature-title">Fast Delivery</h3>
+              <p class="feature-desc">
+                Free shipping on all orders over $50 with delivery in 2-3
+                business days.
+              </p>
+            </div>
+            <div class="feature-card">
+              <div class="feature-icon">🔄</div>
+              <h3 class="feature-title">Easy Returns</h3>
+              <p class="feature-desc">
+                30-day return policy with hassle-free exchange and refund
+                process.
+              </p>
+            </div>
+            <div class="feature-card">
+              <div class="feature-icon">👕</div>
+              <h3 class="feature-title">Quality Fabric</h3>
+              <p class="feature-desc">
+                All our products are made with premium sustainable materials.
+              </p>
+            </div>
+            <div class="feature-card">
+              <div class="feature-icon">🛡️</div>
+              <h3 class="feature-title">Secure Payment</h3>
+              <p class="feature-desc">
+                Multiple secure payment options with encrypted transaction
+                processing.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section class="product-section">
+          <div class="product-header">
+            <span class="section-number">2</span>
+            <h2>Our Products</h2>
+          </div>
+          <div class="category-header">
+            <p class="category-subtitle">Explore Our Products</p>
+            <a href="#" class="view-all">View All <span>→</span></a>
+          </div>
+          <div class="product-grid" id="explore-products">
+            <!-- Products will be loaded here via JavaScript -->
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <a href="#" class="back-to-top">↑</a>
+
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-column">
+          <h4>FASHION</h4>
+          <p>Complete your style with awesome clothes from us.</p>
+          <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+        <div class="footer-column">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact us</a></li>
+            <li><a href="#">Support</a></li>
+            <li><a href="#">Careers</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#">Store Location</a></li>
+            <li><a href="#">Order Tracking</a></li>
+            <li><a href="#">Size Guide</a></li>
+            <li><a href="#">FAQs</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h4>Legal</h4>
+          <ul>
+            <li><a href="#">Terms & conditions</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
