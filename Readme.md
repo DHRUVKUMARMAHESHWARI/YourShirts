@@ -53,8 +53,8 @@ project-root/
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/your-username/product-listing-website.git
-   cd product-listing-website
+   git clone https://github.com/DHRUVKUMARMAHESHWARI/YourShirts
+   cd ________
    ```
 
 2. **Open the project**
@@ -71,7 +71,6 @@ project-root/
 
 The website uses a mobile-first approach with strategic breakpoints:
 - **Mobile** (< 576px): 2 cards per row
-- **Tablet** (576px - 992px): 3 cards per row
 - **Desktop** (> 992px): 4 cards per row
 
 CSS custom properties (variables) are used throughout the project to maintain design consistency and facilitate theming.
@@ -86,7 +85,6 @@ The "Scroll More" button triggers a JavaScript function that:
 
 ### Performance Optimization
 
-- Images are optimized for web delivery
 - JavaScript is modular and event-driven
 - CSS is structured for minimal repaints and reflows
 - Smooth scrolling is implemented with requestAnimationFrame
@@ -103,8 +101,6 @@ The "Scroll More" button triggers a JavaScript function that:
 The website has been tested and works correctly on:
 - Google Chrome (latest)
 - Mozilla Firefox (latest)
-- Safari (latest)
-- Microsoft Edge (latest)
 - Mobile browsers (iOS Safari, Android Chrome)
 
 ## Future Enhancements
@@ -116,12 +112,11 @@ Potential improvements for future iterations:
 - Shopping cart functionality
 - User authentication
 
----
 
 ## Contact
 
 For any questions or feedback about this project, please contact:
-- Your Name
-- your.email@example.com
-- [Your LinkedIn Profile](https://linkedin.com/in/your-profile)
-- [Your GitHub Profile](https://github.com/your-username)
+- Dhruv kumar maheshwari
+- dhruvmaheswari23@gmail.com
+- [Your LinkedIn Profile](https://www.linkedin.com/in/dhruv-kumar-maheshwari-46b38a249/)
+- [Your GitHub Profile](https://github.com/DHRUVKUMARMAHESHWARI)
